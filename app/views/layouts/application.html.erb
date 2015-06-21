@@ -8,6 +8,12 @@
 </head>
 <body>
 
+<% if session[:logged_in] %>
+  <%= link_to 'Log Out', '/sessions', method: :delete %>
+<% else %>
+  <%= link_to 'Log In', '/sessions/new' %>
+<% end %>
+
 <%= yield %>
 
 </body>
