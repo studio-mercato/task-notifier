@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  canonical_name: MyString
+  trello_id: MyString
+  slack_name: MyString
+
+two:
+  canonical_name: MyString
+  trello_id: MyString
+  slack_name: MyString

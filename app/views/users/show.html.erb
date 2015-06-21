@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Canonical name:</strong>
+  <%= @user.canonical_name %>
+</p>
+
+<p>
+  <strong>Trello:</strong>
+  <%= @user.trello_id %>
+</p>
+
+<p>
+  <strong>Slack name:</strong>
+  <%= @user.slack_name %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
