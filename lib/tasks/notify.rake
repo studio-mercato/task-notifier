@@ -7,7 +7,7 @@ namespace :notify do
       cards.each do |card|
         Slack.post_message(
           msg: Notifier.new(card).full_message,
-          channel: 'test'
+          channel: 'general'
         )
       end
     end
